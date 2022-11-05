@@ -13,14 +13,15 @@ nav {
       text-align: center;
       padding: 20px;
     }
-  }
 
-  .logo img {
-    padding: 30px;
+    img {
+      width: 270px;
+      padding: 30px;
 
-    @media screen and (max-width: 768px) {
-      width: 200px;
-      padding: 0;
+      @media screen and (max-width: 768px) {
+        width: 200px;
+        padding: 0;
+      }
     }
   }
 
