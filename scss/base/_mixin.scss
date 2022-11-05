@@ -1,0 +1,11 @@
+@mixin btn-card {
+  width: 100%;
+  background-color: $secondBgColor;
+  color: $secondFontcolor;
+  border: none;
+
+  &:hover {
+    background-color: $mainBgColor;
+    color: $mainFontColor;
+  }
+}

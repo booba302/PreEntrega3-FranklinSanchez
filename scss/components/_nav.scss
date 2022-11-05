@@ -1,0 +1,54 @@
+nav {
+  background-color: $mainBgColor;
+
+  @media screen and (min-width: 768px) {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+
+  .logo {
+    @media screen and (max-width: 768px) {
+      text-align: center;
+      padding: 20px;
+    }
+  }
+
+  .logo img {
+    padding: 30px;
+
+    @media screen and (max-width: 768px) {
+      width: 200px;
+      padding: 0;
+    }
+  }
+
+  .menu {
+    padding: 30px;
+
+    .btn-menu {
+      color: $mainFontColor;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 5px;
+      display: block;
+      padding: 5px 14px;
+      text-align: center;
+
+      &:hover {
+        background-color: $secondBgColor;
+        color: $secondFontcolor;
+        transition: 0.5s ease;
+      }
+
+      @media screen and (max-width: 768px) {
+        font-size: 14px;
+      }
+    }
+
+    .drop {
+      background-color: $mainBgColor;
+    }
+  }
+}

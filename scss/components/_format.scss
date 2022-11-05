@@ -1,0 +1,58 @@
+* {
+  font-family: $ssFont;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  width: 100%;
+}
+
+i {
+  padding: 0 2%;
+}
+
+h1 {
+  font-family: $sFont;
+  font-size: 3vw;
+  font-weight: bold;
+  width: 100%;
+  padding: 5%;
+
+  @media screen and (max-width: 768px) {
+    font-size: 5vw;
+    padding: 10%;
+  }
+}
+
+h2 {
+  font-size: 2vw;
+  font-weight: bold;
+  padding: 5%;
+
+  @media screen and (max-width: 768px) {
+    font-size: 4.5vw;
+  }
+}
+
+h3 {
+  font-size: 1vw;
+  font-weight: bold;
+  padding: 5%;
+
+  @media screen and (max-width: 768px) {
+    font-size: 4vw;
+  }
+}
+
+.form-control:focus {
+  box-shadow: 0 0 8px #5dc1b9;
+}

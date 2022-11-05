@@ -1,0 +1,11 @@
+{
+  "name": "tercera-entrega",
+  "version": "1.0.0",
+  "description": "Tercera entrega del proyecto CoderHouse",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Franklin Sánchez",
+  "license": "ISC"
+}

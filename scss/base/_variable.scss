@@ -1,0 +1,19 @@
+$theme: "light";
+
+$mainBgColor: #5dc1b9;
+$secondBgColor: #33115b;
+$thirdBgColor: #dddcdc;
+
+$mainFontColor: #494949;
+$secondFontcolor: #ffffff;
+
+@if $theme == dark {
+  $mainBgColor: #33115b;
+  $secondBgColor: #5dc1b9;
+
+  $mainFontColor: #ffffff;
+  $secondFontcolor: #494949;
+}
+
+$ssFont: "Montserrat", sans-serif;
+$sFont: "PT Serif", serif;
