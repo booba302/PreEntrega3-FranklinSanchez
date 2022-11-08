@@ -62,6 +62,7 @@ h3 {
 
 nav {
   background-color: #5dc1b9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 @media screen and (min-width: 768px) {
   nav {
@@ -118,7 +119,7 @@ nav .menu .drop {
   padding: 0;
 }
 .banner img {
-  opacity: 75%;
+  opacity: 100%;
   width: 100%;
 }
 .banner .centered {
@@ -127,11 +128,47 @@ nav .menu .drop {
   text-align: center;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -75%);
+}
+.banner .centered h1 {
+  -webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
 }
 
 .about-me img {
-  width: 100%;
+  width: 70%;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
@@ -141,7 +178,7 @@ nav .menu .drop {
   }
 }
 .about-me p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 30px;
   text-align: justify;
 }
