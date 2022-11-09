@@ -15,6 +15,12 @@ footer {
     color: $mainFontColor;
   }
 
+  .pages {
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
   .contact {
     .icons {
       padding: 0;
@@ -31,7 +37,7 @@ footer {
         gap: 50px;
       }
 
-      i{
+      i {
         @media screen and (max-width: 768px) {
           font-size: 20px;
         }
