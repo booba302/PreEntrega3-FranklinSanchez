@@ -178,6 +178,7 @@ nav .menu .drop {
   font-size: 16px;
   line-height: 30px;
   text-align: justify;
+  padding-right: 5%;
 }
 @media screen and (max-width: 768px) {
   .about-me p {
