@@ -105,74 +105,76 @@
     </nav>
 
     <!-- formulario contacto -->
-    <div class="container contact">
-      <h1 class="text-center">Formulario de contacto</h1>
-      <div class="row justify-content-center">
-        <div class="col-lg-4">
-          <label for="name" class="form-label">Nombres:</label>
-          <input
-            type="text"
-            class="form-control"
-            id="name"
-            placeholder="Escriba sus nombres"
-          />
+    <form action="" method="">
+      <div class="container contact">
+        <h1 class="text-center">Formulario de contacto</h1>
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <label for="name" class="form-label">Nombres:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Escriba sus nombres"
+            />
+          </div>
+          <div class="col-lg-4">
+            <label for="lastname" class="form-label">Apellidos:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="lastname"
+              placeholder="Escriba sus apellidos"
+            />
+          </div>
         </div>
-        <div class="col-lg-4">
-          <label for="lastname" class="form-label">Apellidos:</label>
-          <input
-            type="text"
-            class="form-control"
-            id="lastname"
-            placeholder="Escriba sus apellidos"
-          />
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <label for="phone" class="form-label">Teléfono:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="phone"
+              placeholder="Escriba su nro de teléfono"
+            />
+          </div>
+          <div class="col-lg-4">
+            <label for="email" class="form-label">Correo electrónico:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Escriba su correo"
+            />
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <label for="comment" class="form-label"
+              >¿En que podemos ayudarle?</label
+            >
+            <textarea
+              class="form-control"
+              id="comment"
+              placeholder="Escriba su solicitud"
+              rows="10"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row text-center justify-content-center">
+          <div class="col-lg-2">
+            <button
+              type="button"
+              class="btn btn-primary btn-card"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <i class="fa-solid fa-square-arrow-up-right"></i>Enviar
+            </button>
+          </div>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-4">
-          <label for="phone" class="form-label">Teléfono:</label>
-          <input
-            type="text"
-            class="form-control"
-            id="phone"
-            placeholder="Escriba su nro de teléfono"
-          />
-        </div>
-        <div class="col-lg-4">
-          <label for="email" class="form-label">Correo electrónico:</label>
-          <input
-            type="email"
-            class="form-control"
-            id="email"
-            placeholder="Escriba su correo"
-          />
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <label for="comment" class="form-label"
-            >¿En que podemos ayudarle?</label
-          >
-          <textarea
-            class="form-control"
-            id="comment"
-            placeholder="Escriba su solicitud"
-            rows="10"
-          ></textarea>
-        </div>
-      </div>
-      <div class="row text-center justify-content-center">
-        <div class="col-lg-2">
-          <button
-            type="button"
-            class="btn btn-primary btn-card"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-          >
-            <i class="fa-solid fa-square-arrow-up-right"></i>Enviar
-          </button>
-        </div>
-      </div>
-    </div>
+    </form>
 
     <!-- Modal -->
     <div
