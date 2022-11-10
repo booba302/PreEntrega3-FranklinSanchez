@@ -24,3 +24,7 @@ Se usó el formato .webp para las imágenes del sitio ya que mantenía la misma 
 ### Etiquetas semánticas
 
 Se usaron algunas de las etiquetas. Al usar bootstrap se utilizan mas div contenedores que etiquetas semánticas como tal.
+
+### Archivo readme
+
+Se usó lenguaje markdown para hacer el archivo README.md con del repositorio donde se explica todos los cambios. 
